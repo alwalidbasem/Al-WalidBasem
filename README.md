@@ -7,13 +7,15 @@ Welcome to my GitHub repository! I'm Alwaleed Bassem Mohamed Saleh, a passionate
 - **Name**: Alwaleed Bassem Mohamed Saleh
 - **Experience**: 5+ years
 - **Skills**: PHP, JavaScript, HTML, CSS, Bootstrap, and more
-- **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/walid-basem/)
+- **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/WalidTechPro/)
+- **freelancer.com**: [Connect on Freelancer](https://www.freelancer.com/u/WalidTechPro/)
 ## Contact
 
 I'm open to collaboration and freelance opportunities. Feel free to reach out:
 
 - Email: walid.devs.website@gmail.com
-- LinkedIn: [Connect on LinkedIn](https://www.linkedin.com/in/walid-basem/)
+- LinkedIn: [Connect on LinkedIn](https://www.linkedin.com/in/WalidTechPro/)
+- freelancer.com: [Connect on Freelancer](https://www.freelancer.com/u/WalidTechPro/)
 
 ## Hire Me
 
