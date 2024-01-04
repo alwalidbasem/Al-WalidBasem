@@ -1,0 +1,398 @@
+:root{
+  --top-buttons-bg-color:#3d405b95;
+  --top-buttons-text-color:#ffffff;
+
+  --image-effect-color:rgba(255, 84, 32, 0.1);
+  --image-blur-effect:4px;
+
+  --playnow-button-bg-color:#ddd;
+  --playnow-text-color:black;
+  --playnow-text-color-onhover:#ffec195;
+  --playnow-button-effect-color:#ec1958c;
+  --playnow-button-starts-color:#fffdef;
+
+  --hero-cards-header-color:white;
+  --hero-cards-status-color:#3d405b;
+
+  --login-modal-bg-color:#3d405b;
+  --login-modal-text-color:white;
+
+  --popup-bg-color: #3d405b;
+  --popup-text-color: #ffffff;
+
+}
+
+.swal2-popup {
+  background-color: var(--popup-bg-color);
+  color: var(--popup-text-color);
+}
+
+.hero-section::before,
+.hero-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), var(--image-effect-color)),url("https://cdn.tebex.io/webstore/1193441/images/1193441-c24ccd06dba110e5da873423cacca2a860a212d5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(var(--image-blur-effect));
+  z-index: -1;
+}
+
+.hero-section,
+.hero-image {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 29rem;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:var(--players-count-text-color);
+}
+.hero-text .IpIs{
+  color: var(--ip-text-color);
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.navbar {
+  position: relative;
+  z-index: 2;
+}
+.hero-cards{
+  position: relative;
+  width: 100%;
+  top: 70%;
+  z-index: 1;
+}
+.hero-cards .Play-btn{
+  position: relative;
+  top: 2rem;
+}
+.hero-text {
+  margin-top: 1rem;
+}
+
+.navbar-brand {
+  width: 11rem;
+}
+
+.Play-btn {
+  position: relative;
+  z-index: 4;
+}
+.navbar .container-fluid{
+  margin: 0% 10%;
+}
+.cutom-btn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: var(--top-buttons-bg-color);
+  border: 2px solid var(--top-buttons-bg-color);
+  color: var(--top-buttons-text-color);
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 150px;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin: 5px;
+}
+.cutom-btn.login-btn:hover{
+  background-color: transparent;
+}
+.cutom-btn .ip-text {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+}
+.cutom-btn.cart-btn .ip-text:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.2s;
+}
+
+.cutom-btn.cart-btn:hover .ip-text {
+  padding-right: 15px;
+}
+
+.cutom-btn.cart-btn:hover .ip-text:after {
+  opacity: 1;
+  right: 0;
+}
+.server-status-cards{
+  width: 20rem;
+}
+.discord-status-card{
+  background-color: rgba(255, 255, 255, 0.468);
+  color: #282b30	;
+  width: 20rem;
+}
+.server-status-card{
+  background-color: rgba(255, 255, 255, 0.468);
+  color: #282b30	;
+  width: 20rem;
+}
+.server-status-card .card-title,.discord-status-card .card-title{
+  color: #282b30;
+}
+.server-status,.discord-status{
+  color:var(--hero-cards-status-color);
+}
+.discord-status-card{
+
+}
+
+
+@media only screen and (max-width: 549px) {
+  .navbar-brand {
+    width: 10rem;
+  }
+  
+}
+
+@media only screen and (max-width: 1030px) {
+  .navbar .container-fluid{
+    margin: 0%;
+  }
+  .hero-cards .discord-status-card,.hero-cards .server-status-card{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 356px) {
+  .cutom-btn{
+    width: 100%;
+    padding: auto;
+    margin: 0px;
+  }
+}
+
+
+
+
+    .Play-btn {
+        position: relative;
+        padding: 10px 25px;
+        background-color: var(--playnow-button-bg-color);
+        font-size: 17px;
+        font-weight: 500;
+        color: #181818;
+        border: 3px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 0 0 #fec1958c;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .star-1 {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        width: 25px;
+        height: auto;
+        filter: drop-shadow(0 0 0 var(--playnow-button-starts-color));
+        z-index: -5;
+        transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+    }
+
+    .star-2 {
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        width: 15px;
+        height: auto;
+        filter: drop-shadow(0 0 0 var(--playnow-button-starts-color));
+        z-index: -5;
+        transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+    }
+
+    .star-3 {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        width: 5px;
+        height: auto;
+        filter: drop-shadow(0 0 0 var(--playnow-button-starts-color));
+        z-index: -5;
+        transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+    }
+
+    .star-4 {
+        position: absolute;
+        top: 20%;
+        left: 40%;
+        width: 8px;
+        height: auto;
+        filter: drop-shadow(0 0 0 #fffdef);
+        z-index: -5;
+        transition: all 0.8s cubic-bezier(0, 0.4, 0, 1.01);
+    }
+
+    .star-5 {
+        position: absolute;
+        top: 25%;
+        left: 45%;
+        width: 15px;
+        height: auto;
+        filter: drop-shadow(0 0 0 var(--playnow-button-starts-color));
+        z-index: -5;
+        transition: all 0.6s cubic-bezier(0, 0.4, 0, 1.01);
+    }
+
+    .star-6 {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        width: 5px;
+        height: auto;
+        filter: drop-shadow(0 0 0 var(--playnow-button-starts-color));
+        z-index: -5;
+        transition: all 0.8s ease;
+    }
+
+        .Play-btn:hover {
+        background: transparent;
+        color: var(--playnow-text-color-onhover);
+        box-shadow: 0 0 25px var(--playnow-button-effect-color);
+        }
+
+        .Play-btn:hover .star-1 {
+        position: absolute;
+        top: -80%;
+        left: -30%;
+        width: 25px;
+        height: auto;
+        filter: drop-shadow(0 0 10px var(--playnow-button-starts-color));
+        z-index: 2;
+        }
+
+        .Play-btn:hover .star-2 {
+        position: absolute;
+        top: -25%;
+        left: 10%;
+        width: 15px;
+        height: auto;
+        filter: drop-shadow(0 0 10px var(--playnow-button-starts-color));
+        z-index: 2;
+        }
+
+        .Play-btn:hover .star-3 {
+        position: absolute;
+        top: 55%;
+        left: 25%;
+        width: 5px;
+        height: auto;
+        filter: drop-shadow(0 0 10px var(--playnow-button-starts-color));
+        z-index: 2;
+        }
+
+        .Play-btn:hover .star-4 {
+        position: absolute;
+        top: 30%;
+        left: 80%;
+        width: 8px;
+        height: auto;
+        filter: drop-shadow(0 0 10px var(--playnow-button-starts-color));
+        z-index: 2;
+        }
+
+        .Play-btn:hover .star-5 {
+        position: absolute;
+        top: 25%;
+        left: 115%;
+        width: 15px;
+        height: auto;
+        filter: drop-shadow(0 0 10px var(--playnow-button-starts-color));
+        z-index: 2;
+        }
+
+        .Play-btn:hover .star-6 {
+        position: absolute;
+        top: 5%;
+        left: 60%;
+        width: 5px;
+        height: auto;
+        filter: drop-shadow(0 0 10px var(--playnow-button-starts-color));
+        z-index: 2;
+        }
+
+        .fil0 {
+        fill: var(--playnow-button-starts-color);
+        }
+
+
+
+
+
+
+        /* Login POP UP*/
+        .links-navbar {
+          position: absolute;
+          top: 26.4rem;
+          width: 100%;
+          z-index: 10;
+      }
+  
+      .login-modal-body {
+          background-color: var(--login-modal-bg-color);
+      }
+  
+      .login-modal-body .form-control {
+          border-radius: 0px 5px 5px 0px;
+          font-size: 19px;
+      }
+      .login-modal-body img {
+        padding: 5px;
+        border-radius: 5px 0px 0px 5px;
+      }
+  
+      .login-modal-body .form-control:focus {
+          border-color: none;
+          outline: 0;
+          box-shadow: none;
+      }
+      .btn:focus:not(:focus-visible){
+        border-color: none;
+        outline: 0;
+        box-shadow: none;
+      }
+
+      .login-img {
+          padding-left: 0.2rem;
+      }
+  
+      .row.d-flex.justify-content-center {
+          margin-right: 0;
+          margin-left: 0;
+      }
+  
+      .login-header {
+          color: var(--login-modal-text-color);
+      }
