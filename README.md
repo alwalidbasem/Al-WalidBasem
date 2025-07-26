@@ -7,7 +7,7 @@ Welcome to my GitHub repository! I'm Al-Walid Bassem, a passionate Full Stack De
 - **Name**: Al-Walid Bassem Mohamed Saleh
 - **Experience**: 2+ years
 - **Frameworks**: Angular , Laravel
-- **Skills**: PHP, JavaScript, HTML, CSS, Bootstrap, and more
+- **Skills**: PHP, JavaScript, HTML, CSS, Bootstrap, Typescript and more
 - **LinkedIn**: [Connect on LinkedIn](https://www.linkedin.com/in/WalidTechPro/)
 ## Contact
 
