@@ -13,7 +13,7 @@ Welcome to my GitHub repository! I'm Alwaleed Bassem Mohamed Saleh, a passionate
 
 I'm open to collaboration and freelance opportunities. Feel free to reach out:
 
-- Email: walid.devs.website@gmail.com
+- Email: alwlaidbasem@gmail.com
 - LinkedIn: [Connect on LinkedIn](https://www.linkedin.com/in/WalidTechPro/)
 - upwork.com: [Connect on Freelancer](https://www.freelancer.com/u/WalidTechPro/)
 
