@@ -13,7 +13,7 @@ Welcome to my GitHub repository! I'm Al-Walid Bassem, a passionate Full Stack De
 
 I'm open to collaboration and freelance opportunities. Feel free to reach out:
 
-- Email: alwlaidbasem@gmail.com
+- Email: alwalidbasem@gmail.com
 - LinkedIn: [Connect on LinkedIn](https://www.linkedin.com/in/WalidTechPro/)
 ## Hire Me
 If you're looking for a dedicated Full Stack Developer to bring your web project to life, I'd love to work with you. Please reach out to discuss your project requirements and pricing.
